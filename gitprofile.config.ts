@@ -135,28 +135,28 @@ const CONFIG = {
   ],
   publications: [
     {
-      title: 'Publication Title',
-      conferenceName: '',
-      journalName: 'Journal Name',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
+      title: 'A Reputation-Based Distributed Controller Reconfiguration Algorithm for Misbehaving Agents in Networked Control Systems',
+      conferenceName: '2021 9th RSI International Conference on Robotics and Mechatronics (ICRoM)',
+      journalName: '',
+      authors: 'Mohammadamin Lari, Iman Sharifi, Heidar Ali Talebi',
+      link: 'https://ieeexplore.ieee.org/document/9663498',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
     },
     {
-      title: 'Publication Title',
-      conferenceName: 'Conference Name',
+      title: '',
+      conferenceName: '',
       journalName: '',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
+      authors: '',
+      link: '',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        '',
     },
   ],
   // Display articles from your medium or dev account. (Optional)
   blog: {
     source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
+    username: '', // to hide blog section, keep it empty
     limit: 2, // How many articles to display. Max is 10.
   },
   googleAnalytics: {
