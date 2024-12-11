@@ -97,26 +97,44 @@ const CONFIG = {
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
+      company: 'University of British Columbia',
+      position: 'Graduate Research Assistant',
+      from: 'January 2023',
       to: 'Present',
-      companyLink: 'https://example.com',
+      companyLink: '',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'Tehran-Ramian Transmission Lines',
+      position: 'Instrumentation Engineer',
+      from: 'April 2020',
+      to: 'December 2020',
+      companyLink: '',
     },
   ],
   certifications: [
     {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
+      name: 'Advanced Learning Algorithms',
+      body: 'DeepLearning.AI',
+      year: 'November 2022',
+      link: 'https://www.coursera.org/account/accomplishments/verify/QKU5WUEHC2HB?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=pdf_header_button&utm_product=course',
+    },
+    {
+      name: 'Supervised Machine Learning: Regression and Classification',
+      body: 'DeepLearning.AI',
+      year: 'October 2022',
+      link: 'https://www.coursera.org/account/accomplishments/verify/HUUBWQREYR54?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course',
+    },
+    {
+      name: 'Cyber-Security in Cyber-Physical Systems',
+      body: 'ICRoM',
+      year: 'November 2021',
+      link: '',
+    },
+    {
+      name: 'Web Design and Programming',
+      body: 'University of Tehran',
+      year: 'August 2018',
+      link: '',
     },
   ],
   educations: [
@@ -141,7 +159,7 @@ const CONFIG = {
       authors: 'Mohammadamin Lari, Iman Sharifi, Heidar Ali Talebi',
       link: 'https://ieeexplore.ieee.org/document/9663498',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        'In this paper, we propose a reputation-based algorithm for controller reconfiguration of misbehaving agents in Networked Control Systems (NCSs). The proposed controller is able to reject malicious data injections and maintain the desired performance of the system in presence of cyber-attacks. The effectiveness of our proposition is evaluated on a leader-follower vehicular platoon in presence of DoS and Replay attacks. Numerical simulation is provided and shows fast detection and isolation of misbehaving agents and steering them to a predefined safe location. A Consensus among well-behaving agents is achieved via the application of the reputation algorithm.',
     },
     {
       title: '',
