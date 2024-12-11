@@ -29,26 +29,6 @@ const CONFIG = {
       },
     },
     external: {
-      header: '',
-      // To hide the `External Projects` section, keep it empty.
-      projects: [
-        {
-          title: '',
-          description:
-            '',
-          imageUrl:
-            '',
-          link: '',
-        },
-        {
-          title: '',
-          description:
-            '',
-          imageUrl:
-            '',
-          link: '',
-        },
-      ],
     },
   },
   seo: {
@@ -162,13 +142,13 @@ const CONFIG = {
         'In this paper, we propose a reputation-based algorithm for controller reconfiguration of misbehaving agents in Networked Control Systems (NCSs). The proposed controller is able to reject malicious data injections and maintain the desired performance of the system in presence of cyber-attacks. The effectiveness of our proposition is evaluated on a leader-follower vehicular platoon in presence of DoS and Replay attacks. Numerical simulation is provided and shows fast detection and isolation of misbehaving agents and steering them to a predefined safe location. A Consensus among well-behaving agents is achieved via the application of the reputation algorithm.',
     },
     {
-      title: '',
+      title: 'Data-Driven Mitigation of False Data Injection Cyberattacks in Networked Control Systems',
       conferenceName: '',
-      journalName: '',
-      authors: '',
-      link: '',
+      journalName: 'University of British Columbia',
+      authors: 'Mohammadamin Lari',
+      link: 'https://dx.doi.org/10.14288/1.0447363',
       description:
-        '',
+        'The rapid advancement of digital technologies has resulted in an increase in data generation and availability, along with breakthroughs in artificial intelligence, machine learning, and access to high-performance computing resources. These developments have drawn attention into data-driven approaches to tackle various challenges in industry. One of the most important challenges is enhancing security and protecting systems against malicious cyberattacks to prevent their catastrophic consequences. This thesis focuses on one of most common types of cyberattacks, called false data injection attack, which compromises the integrity of data transmitted over communication networks. This thesis aims to enhance the resiliency of networked control systems and ensure their safe operation in the presence of malicious activities through mitigating the impacts of false data injection attacks in real-time using a novel two-stage data-driven framework. The proposed method’s effectiveness is demonstrated through rigorous simulations involving the formation control of differential-drive mobile robots.',
     },
   ],
   // Display articles from your medium or dev account. (Optional)
