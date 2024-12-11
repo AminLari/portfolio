@@ -135,28 +135,28 @@ const CONFIG = {
   ],
   publications: [
     {
-      title: 'A Reputation-Based Distributed Controller Reconfiguration Algorithm for Misbehaving Agents in Networked Control Systems',
-      conferenceName: '2021 9th RSI International Conference on Robotics and Mechatronics (ICRoM)',
-      journalName: '',
-      authors: 'Mohammadamin Lari, Iman Sharifi, Heidar Ali Talebi',
-      link: 'https://ieeexplore.ieee.org/document/9663498',
+      title: 'Publication Title',
+      conferenceName: '',
+      journalName: 'Journal Name',
+      authors: 'John Doe, Jane Smith',
+      link: 'https://example.com',
       description:
-        'In this paper, we propose a reputation-based algorithm for controller reconfiguration of misbehaving agents in Networked Control Systems (NCSs). The proposed controller is able to reject malicious data injections and maintain the system's desired performance in presence of cyber-attacks. The effectiveness of our proposition is evaluated on a leader-follower vehicular platoon in presence of DoS and Replay attacks. Numerical simulation is provided and shows fast detection and isolation of misbehaving agents and steering them to a predefined safe location. A Consensus among well-behaving agents is achieved via the application of the reputation algorithm.',
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
     },
     {
-      title: '',
-      conferenceName: '',
+      title: 'Publication Title',
+      conferenceName: 'Conference Name',
       journalName: '',
-      authors: '',
-      link: '',
+      authors: 'John Doe, Jane Smith',
+      link: 'https://example.com',
       description:
-        '',
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
     },
   ],
   // Display articles from your medium or dev account. (Optional)
   blog: {
-    source: '', // medium | dev
-    username: '', // to hide blog section, keep it empty
+    source: 'dev', // medium | dev
+    username: 'arifszn', // to hide blog section, keep it empty
     limit: 2, // How many articles to display. Max is 10.
   },
   googleAnalytics: {
