@@ -52,15 +52,15 @@ const CONFIG = {
     },
   },
   seo: {
-    title: 'Portfolio of Ariful Alam',
+    title: 'Portfolio of Mohammadamin Lari',
     description: '',
     imageURL: '',
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
-    researchGate: '',
+    linkedin: 'aminlari',
+    twitter: '',
+    mastodon: '',
+    researchGate: 'Mohammadamin-Lari',
     facebook: '',
     instagram: '',
     reddit: '',
@@ -69,34 +69,31 @@ const CONFIG = {
     udemy: '',
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
+    medium: '',
+    dev: '',
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
     telegram: '',
-    website: 'https://www.arifszn.com',
+    website: 'https://www.github.com/AminLari',
     phone: '',
-    email: 'arifulalamszn@gmail.com',
+    email: 'mohamadamin.lari@gmail.com',
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      '', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
+    'Python',
+    'C/C++',
+    'Java',
+    'MATLAB',
+    'R',
+    'ARM',
+    'Arduino',
+    'Web Programming',
+    'HTML5',
+    'CSS3',
     'JavaScript',
-    'React.js',
-    'Node.js',
-    'Nest.js',
-    'MySQL',
-    'PostgreSQL',
-    'Git',
-    'Docker',
-    'PHPUnit',
-    'CSS',
-    'Antd',
-    'Tailwind',
   ],
   experiences: [
     {
@@ -124,42 +121,42 @@ const CONFIG = {
   ],
   educations: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: 'University of British Columbia',
+      degree: 'Master of Applied Science - Electrical Engineering',
+      from: '2023',
+      to: '2024',
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'Amirkabir University of Technology',
+      degree: 'Bachelor of Applied Science - Electrical Engineering',
+      from: '2017',
+      to: '2021',
     },
   ],
   publications: [
     {
-      title: 'Publication Title',
-      conferenceName: '',
-      journalName: 'Journal Name',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
+      title: 'A Reputation-Based Distributed Controller Reconfiguration Algorithm for Misbehaving Agents in Networked Control Systems',
+      conferenceName: '2021 9th RSI International Conference on Robotics and Mechatronics (ICRoM)',
+      journalName: '',
+      authors: 'Mohammadamin Lari, Iman Sharifi, Heidar Ali Talebi',
+      link: 'https://ieeexplore.ieee.org/document/9663498',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        'In this paper, we propose a reputation-based algorithm for controller reconfiguration of misbehaving agents in Networked Control Systems (NCSs). The proposed controller is able to reject malicious data injections and maintain the system's desired performance in presence of cyber-attacks. The effectiveness of our proposition is evaluated on a leader-follower vehicular platoon in presence of DoS and Replay attacks. Numerical simulation is provided and shows fast detection and isolation of misbehaving agents and steering them to a predefined safe location. A Consensus among well-behaving agents is achieved via the application of the reputation algorithm.',
     },
     {
-      title: 'Publication Title',
-      conferenceName: 'Conference Name',
+      title: '',
+      conferenceName: '',
       journalName: '',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
+      authors: '',
+      link: '',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        '',
     },
   ],
   // Display articles from your medium or dev account. (Optional)
   blog: {
-    source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
+    source: '', // medium | dev
+    username: '', // to hide blog section, keep it empty
     limit: 2, // How many articles to display. Max is 10.
   },
   googleAnalytics: {
